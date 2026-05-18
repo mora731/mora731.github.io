@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>羅文成</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#about" onclick="showSection('about')">About Me</a></li>
+            <li><a href="#books" onclick="showSection('books')">Books</a></li>
+            <li><a href="#music" onclick="showSection('music')">Music</a></li>
+            <li><a href="#movies" onclick="showSection('movies')">Movies</a></li>
+            <li><a href="#games" onclick="showSection('games')">Games</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="content-section active">
+            <h2>About Me</h2>
+            <p>羅文成です。２０２４年に中国から来ました。</p>
+            <p>音楽、ゲーム、映画が大好きです。</p>
+            <p>AIシステム・データサイエンスを勉強しています。</p>
+        </section>
+
+        <section id="books" class="content-section">
+            <h2>Favorite Books</h2>
+            <div class="item-grid">
+                <div class="item">
+                    <img src="images/pale-horse.jpg" alt="Behold a Pale Horse">
+                    <h3>Behold a Pale Horse</h3>
+                </div>
+                <div class="item">
+                    <img src="images/hellbound-heart.jpg" alt="The Hellbound Heart">
+                    <h3>The Hellbound Heart</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="music" class="content-section">
+            <h2>Favorite Music</h2>
+            <div class="item-grid">
+                <div class="item">
+                    <img src="images/arch-enemy.jpg" alt="Arch Enemy">
+                    <h3>Arch Enemy</h3>
+                </div>
+                <div class="item">
+                    <img src="images/moritaka.jpg" alt="Moritaka Chisato">
+                    <h3>Moritaka Chisato</h3>
+                </div>
+                <div class="item">
+                    <img src="images/avenged-sevenfold.jpg" alt="Avenged Sevenfold">
+                    <h3>Avenged Sevenfold</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="movies" class="content-section">
+            <h2>Favorite Movies</h2>
+            <div class="item-grid">
+                <div class="item">
+                    <img src="images/the-thing.jpg" alt="The Thing (1982)">
+                    <h3>The Thing (1982)</h3>
+                </div>
+                <div class="item">
+                    <img src="images/They-Live.jpg" alt="They Live (1988)">
+                    <h3>They Live (1988)</h3>
+                </div>
+                <div class="item">
+                    <img src="images/little-forest.jpg" alt="Little Forest: Summer/Autumn">
+                    <h3>Little Forest: Summer/Autumn (2014)</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="games" class="content-section">
+            <h2>Favorite Games</h2>
+            <div class="item-grid">
+                <div class="item">
+                    <img src="images/mtg-arena.png" alt="MTG Arena">
+                    <h3>MTG Arena</h3>
+                </div>
+                <div class="item">
+                    <img src="images/kards.jpg" alt="Kards">
+                    <h3>Kards</h3>
+                </div>
+                <div class="item">
+                    <img src="images/world-of-warcraft.jpg" alt="World of Warcraft">
+                    <h3>World of Warcraft</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact Me: rabunsei@email.com | <a href="#">X</a> | <a href="#">GitHub</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
